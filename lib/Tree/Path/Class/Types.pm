@@ -7,7 +7,7 @@ package Tree::Path::Class::Types;
 }
 use strict;
 
-our $VERSION = '0.005';    # VERSION
+our $VERSION = '0.006';    # VERSION
 use Carp;
 use Path::Class;
 use MooseX::Types -declare => [qw(TreePath TreePathValue Tree)];
@@ -52,10 +52,10 @@ __END__
 
 =pod
 
-=for :stopwords Mark Gardner GSI Commerce cpan testmatrix url annocpan anno bugtracker rt
-cpants kwalitee diff irc mailto metadata placeholders metacpan
-
 =encoding utf8
+
+=for :stopwords Mark Gardner eBay Enterprise cpan testmatrix url annocpan anno bugtracker
+rt cpants kwalitee diff irc mailto metadata placeholders metacpan
 
 =head1 NAME
 
@@ -63,7 +63,7 @@ Tree::Path::Class::Types - Type library for Tree::Path::Class
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 SYNOPSIS
 
@@ -139,7 +139,7 @@ CPANTS
 
 The CPANTS is a website that analyzes the Kwalitee ( code metrics ) of a distribution.
 
-L<http://cpants.perl.org/dist/overview/Tree-Path-Class>
+L<http://cpants.cpanauthors.org/dist/Tree-Path-Class>
 
 =item *
 
@@ -189,7 +189,7 @@ Mark Gardner <mjgardner@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by GSI Commerce.
+This software is copyright (c) 2014 by eBay Enterprise.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
